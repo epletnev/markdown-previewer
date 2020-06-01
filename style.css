@@ -1,0 +1,55 @@
+body {
+  background: #687899;
+}
+
+#headers {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+#header {
+  margin-right: 150px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#editor {
+  height: 700px;
+  width: 500px;
+  background: #c4c7cc;
+  border-radius: 3px;
+  border: 2px solid;
+  font-size: 15px;
+  padding: 20px;
+}
+
+#preview {
+  background: #c4c7cc;
+  width: 500px;
+  border-radius: 3px;
+  border: 2px solid;
+  padding: 20px;
+}
+
+blockquote {
+  border-left: 3px solid slategray;
+  color: #224b4b;
+  padding-left: 5px;
+}
+
+code {
+  background: white;
+  padding: 1px 4px 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+pre {
+  background: white;
+  padding: 5px 0 5px 5px;
+}
